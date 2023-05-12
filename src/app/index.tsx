@@ -2,8 +2,8 @@ import React, { FC } from 'react';
 
 import { Routing } from './providers/router/ui';
 import { withProviders } from './providers';
-import { useThemeContext } from '../shared/helpers/useTheme';
 import classes from './styles/themes/index.module.scss';
+import { useThemeContext } from '../shared/lib/theme/useTheme';
 
 const App: FC = () => {
   const [theme] = useThemeContext();

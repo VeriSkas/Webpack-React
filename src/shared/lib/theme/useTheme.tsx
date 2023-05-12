@@ -1,7 +1,7 @@
 import { useContext, useLayoutEffect, useState } from 'react';
 
-import { LocalStorageKey } from '../constants/localStorage';
-import { ThemeContext } from '../contexts/themeContext';
+import { LocalStorageKey } from '../../config/constants/localStorage';
+import { ThemeContext } from './themeContext';
 
 export type Theme = 'light' | 'dark';
 
